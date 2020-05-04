@@ -109,6 +109,7 @@
   systemd:
     name: "{{ item }}"
     state: started
+    daemon_reload: yes
     enabled: yes
   loop:
     - netbox.socket

@@ -8,6 +8,7 @@ _netbox_packages:
   - libpq-dev
   - libssl-dev
 _netbox_python_packages:
+  - build-essential
   - python3.6
   - python3.6-dev
   - python3-pip
